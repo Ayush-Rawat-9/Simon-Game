@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 10%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.line1{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.line2{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+#b1{
+    background-color: rgb(232, 31, 31);
+}
+#b2{
+    background-color: aqua;
+}
+#b3{
+    background-color: yellow;
+}
+#b4{
+    background-color: rgb(67, 218, 67);
+}
+.flash{
+    background-color: black !important;
+    color: white;
+}
